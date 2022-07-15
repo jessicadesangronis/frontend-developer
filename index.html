@@ -5,6 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 4 23 Curso Frontend Developer</title>
+    <style>
+      * {
+        background: papayawhip;
+      }
+     
+      div {
+        background: pink;
+      }  
+      
+      .titulo {
+            color: blueviolet;
+      }
+      
+      #titulo2 {
+            color:brown;
+      }
+
+      a[href="https://platzi.com"] {
+            color:black;
+      }
+
+      <!-- clase 9 pseudoelementos y pseudocodigos-->
+      p {
+        color: blue;
+      }
+
+      p:hover {
+        color:chocolate;
+      }
+
+      p::first-letter {
+        color:black;
+      }
+
+      p::before {
+        content:"-";
+      }
+
+      ::placeholder {
+        color:tomato;
+      }
+
+
+
+    </style>
 </head>
 <body>
     <section>
@@ -15,7 +60,9 @@
             <li>Maravilloso</li>
             <li>Inigualable</li>
         </ul>
+
     </section>
+    <div>Hola mundo</div>
     <section>
         <div>
             <img src="https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?cs=srgb&dl=pexels-lina-kivaka-1741205.jpg&fm=jpg" 
@@ -38,5 +85,13 @@
     <a href="https://htmlreference.io/">Go to HTMLreference.io</a>
     <p></p>
     <a href="https://platzi.com">Go to Platzi</a>
+
+    <div class="titulo">Hello</div>
+    <div id="titulo2">World</div>
+
+    <p>Pseudoclases y pseudoelemntos</p>
+    <input type="text" placeholder="Massmellow is beatyfull">
+
+
 </body>
 </html>
