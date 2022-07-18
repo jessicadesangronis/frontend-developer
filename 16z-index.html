@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        div {
+            position: absolute;
+            background: chartreuse;
+            width: 50px;
+            height: 50px;
+        }
+
+        .one {
+            z-index: 3;
+        }
+
+        .two {
+            z-index: 4;
+        }
+
+        .red {
+            background: red;
+            width: 50px;
+            height: 50px;
+            z-index: 5;
+        }
+        .blue {
+            background: rgb(71, 11, 155);
+            width: 50px;
+            height: 50px;
+            z-index: 4;
+        }
+        .yeloow {
+            background: rgb(212, 234, 15);
+            width: 50px;
+            height: 50px;
+            z-index: 6;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="one">Platzi</div>
+    <div class="two">Master</div>
+
+    <p>*************************</p>
+
+<div class="red">RED</div>
+<div class="blue">BLUE
+    <div class="yellOW">YELOOW</div>
+</div>
+</body>
+</html>
